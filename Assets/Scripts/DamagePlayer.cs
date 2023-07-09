@@ -14,14 +14,9 @@ public class DamagePlayer : MonoBehaviour
         {
             damageSignal = true;
             damageTime = 0f;
-
+            GameObject.Find("Canvas").GetComponent<LifeManager>().DisminuirVida();
             Destroy(gameObject);
-
         }
     }
-    //public static void Lesslife()
-    //{
-    //    lifeManager.lifes -= 1;
-    //}
 }
 

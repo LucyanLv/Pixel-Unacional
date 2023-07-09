@@ -758,6 +758,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5288717827488587661, guid: b890ef1cb988adf44989ded59886c2bc, type: 3}
   m_PrefabInstance: {fileID: 5288717827839705034}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &486663515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 690624246, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+  m_PrefabInstance: {fileID: 1939045196761107645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &506204101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,7 +1316,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 41.79
+      value: 5.36
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1789,7 +1794,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 538d54d1a40b0c44f869a31f5db76a13, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.01
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2064,6 +2069,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5daa87fb65c9fa048bf56291c7710adf, type: 3}
+--- !u!1 &981717070 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 172235098, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+  m_PrefabInstance: {fileID: 1939045196761107645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1013527961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3824,7 +3834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 38.38
+      value: 3.19
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3952,26 +3962,6 @@ Transform:
   m_Father: {fileID: 1249386876}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1746484671 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 901852346, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
-  m_PrefabInstance: {fileID: 1939045196761107645}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1746484677
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1746484671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57f80d772b43c074688f5b654e0bf456, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hearts: []
-  poison: []
-  collectables: []
 --- !u!1 &1806524496
 GameObject:
   m_ObjectHideFlags: 0
@@ -4427,15 +4417,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.26
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: -0.110040665
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.036114182
+      value: 0.03611418
       objectReference: {fileID: 0}
     - target: {fileID: 5948159112376076934, guid: 3e2c674e0b683874abb1e8dc573a69a0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19477,6 +19467,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2078241952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1900354709, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+  m_PrefabInstance: {fileID: 1939045196761107645}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2087782346
 GameObject:
   m_ObjectHideFlags: 0
@@ -19612,6 +19607,18 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Heart
       objectReference: {fileID: 0}
+    - target: {fileID: 1726744565445809965, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+      propertyPath: contenedorCorazones.Array.data[0]
+      value: 
+      objectReference: {fileID: 486663515}
+    - target: {fileID: 1726744565445809965, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+      propertyPath: contenedorCorazones.Array.data[1]
+      value: 
+      objectReference: {fileID: 981717070}
+    - target: {fileID: 1726744565445809965, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
+      propertyPath: contenedorCorazones.Array.data[2]
+      value: 
+      objectReference: {fileID: 2078241952}
     - target: {fileID: 4001281892953969767, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -19666,7 +19673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5936891988863150557, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
       propertyPath: m_Name
-      value: Canvas+EventSystem Variant
+      value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 5936891988863150557, guid: 98461c1f97ed1ef4c80023912c849f6c, type: 3}
       propertyPath: m_IsActive
