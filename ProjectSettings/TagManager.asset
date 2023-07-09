@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Suelo
   - Wall
+  - Heart
+  - Poison
+  - Collectables
   layers:
   - Default
   - TransparentFX

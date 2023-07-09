@@ -97,7 +97,7 @@ public class PlayerMove : MonoBehaviour
             gameObject.transform.GetChild(0).gameObject.SetActive(false);
             appearingActive = false;
             DamagePlayer.damageSignal = false;
-            //DamagePlayer.Lesslife();
+            DamagePlayer.Lesslife();
         }
     }
 }

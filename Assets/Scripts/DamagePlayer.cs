@@ -15,9 +15,13 @@ public class DamagePlayer : MonoBehaviour
             damageSignal = true;
             damageTime = 0f;
 
-            gameObject.SetActive(false);
+            Destroy(gameObject);
 
-            }
         }
     }
+    public static void Lesslife()
+    {
+        lifeManager.lifes -= 1;
+    }
+}
 
